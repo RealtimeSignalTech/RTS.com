@@ -1,0 +1,60 @@
+/* Navigation */
+#foot{
+    list-style: none;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    background-color: #666;
+    width: 100%;
+}
+.foot-menu{
+    width: 80%;
+}
+/* CSS for each Parent Item */
+.foot-menu ul{
+    margin:0px; padding:0px;
+}
+.foot-menu ul a, ul a:hover{
+    text-decoration:none;
+}
+.foot-menu h4{
+    color:#eee;
+}
+.foot-menu ul li{
+    display:inline;
+    height:30px;
+    float:left;
+    list-style:none;
+    margin-left:15px;
+    position: relative;
+    width: 160px;
+}
+.foot-menu li a{
+    color:white;
+    text-decoration:none;
+}
+.foot-menu li a:hover{
+    text-decoration:underline;
+}
+/* CSS for each Child Item */
+.foot-menu li ul{
+    margin:0px;
+    padding:0px;
+    position: absolute;
+    left:0px; top:20px;
+    #background-color:#ccc;
+}
+.foot-menu li:hover ul{
+    display:block;
+    #width:160px;
+}
+.foot-menu li li{
+    list-style:none;
+    display:list-item;
+    width:100%;
+}
+.foot-menu li li a{
+    color:#888; text-decoration:none;
+}
+.foot-menu li li a:hover{
+    text-decoration:underline;
+}

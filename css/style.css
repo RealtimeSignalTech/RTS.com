@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	#background: #000;
+}
+body{
+	margin: 1em 15%;
+	#padding: 1px 3px;
+	font: 80%/1.4 tahoma, arial, helvetica, lucida sans, sans-serif;
+}
+#root {
+	border: 1px solid #999;
+	background: #ccc;
+	position: relative;
+
+}
+#head ul li, dl ul li, #foot li {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0 0.4em;
+	z-index: 10;
+}
+#content{
+	height: 400px;
+}

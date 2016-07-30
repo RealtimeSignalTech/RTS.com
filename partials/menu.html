@@ -1,0 +1,10 @@
+<ul>
+  <li *ngFor="#stree of menutree">
+      <h4><a href="partials/{{stree.text.split(' ').join('')}}.html">{{stree.text}}</a></h4>
+      <ul>
+        <li (click)="onClick($event)" *ngFor="#item of stree.subnav">
+          <a href="partials/{{item.text.split(' ').join('')}}.html">{{item.text}}</a>
+        </li>
+    </ul>
+  </li>
+</ul>
